@@ -8,6 +8,9 @@ namespace Old_West_Bank.UI
     class TelaBoasVindas
     {
     
+        /// <summary>
+        /// Carrega um texto .txt na tela 
+        /// </summary>
         public void TelaApresentacao()
         {
             string path = Directory.GetCurrentDirectory();
@@ -38,9 +41,11 @@ namespace Old_West_Bank.UI
             {
                 Console.WriteLine(" O arquivo inicial não foi localizado !");
             }
-            
+
+            Console.ReadKey();
+
         }
-              
-    
+
+        
     }
 }

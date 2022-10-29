@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Old_West_Bank.UI;
+using System;
 using System.IO;
 
 namespace Old_West_Bank
@@ -7,6 +8,10 @@ namespace Old_West_Bank
     {
         static void Main(string[] args)
         {
+
+            TelaBoasVindas tela = new TelaBoasVindas();
+            tela.TelaApresentacao();
+
             
         }
     }
