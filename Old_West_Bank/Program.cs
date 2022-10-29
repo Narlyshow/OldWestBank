@@ -8,9 +8,6 @@ namespace Old_West_Bank
         static void Main(string[] args)
         {
             
-     
-
-            
         }
     }
 }
