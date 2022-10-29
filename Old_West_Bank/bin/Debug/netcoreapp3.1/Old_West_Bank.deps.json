@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Old_West_Bank/1.0.0": {
+        "runtime": {
+          "Old_West_Bank.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Old_West_Bank/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

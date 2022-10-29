@@ -1,0 +1,14 @@
+C:\Users\Narlson\source\repos\OldWestBank\Old_West_Bank\bin\Debug\netcoreapp3.1\Old_West_Bank.exe
+C:\Users\Narlson\source\repos\OldWestBank\Old_West_Bank\bin\Debug\netcoreapp3.1\Old_West_Bank.deps.json
+C:\Users\Narlson\source\repos\OldWestBank\Old_West_Bank\bin\Debug\netcoreapp3.1\Old_West_Bank.runtimeconfig.json
+C:\Users\Narlson\source\repos\OldWestBank\Old_West_Bank\bin\Debug\netcoreapp3.1\Old_West_Bank.runtimeconfig.dev.json
+C:\Users\Narlson\source\repos\OldWestBank\Old_West_Bank\bin\Debug\netcoreapp3.1\Old_West_Bank.dll
+C:\Users\Narlson\source\repos\OldWestBank\Old_West_Bank\bin\Debug\netcoreapp3.1\Old_West_Bank.pdb
+C:\Users\Narlson\source\repos\OldWestBank\Old_West_Bank\obj\Debug\netcoreapp3.1\Old_West_Bank.csproj.AssemblyReference.cache
+C:\Users\Narlson\source\repos\OldWestBank\Old_West_Bank\obj\Debug\netcoreapp3.1\Old_West_Bank.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Narlson\source\repos\OldWestBank\Old_West_Bank\obj\Debug\netcoreapp3.1\Old_West_Bank.AssemblyInfoInputs.cache
+C:\Users\Narlson\source\repos\OldWestBank\Old_West_Bank\obj\Debug\netcoreapp3.1\Old_West_Bank.AssemblyInfo.cs
+C:\Users\Narlson\source\repos\OldWestBank\Old_West_Bank\obj\Debug\netcoreapp3.1\Old_West_Bank.csproj.CoreCompileInputs.cache
+C:\Users\Narlson\source\repos\OldWestBank\Old_West_Bank\obj\Debug\netcoreapp3.1\Old_West_Bank.dll
+C:\Users\Narlson\source\repos\OldWestBank\Old_West_Bank\obj\Debug\netcoreapp3.1\Old_West_Bank.pdb
+C:\Users\Narlson\source\repos\OldWestBank\Old_West_Bank\obj\Debug\netcoreapp3.1\Old_West_Bank.genruntimeconfig.cache
