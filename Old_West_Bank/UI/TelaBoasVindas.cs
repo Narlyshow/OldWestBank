@@ -5,14 +5,16 @@ using System.Text;
 
 namespace Old_West_Bank.UI
 {
-    class TelaBoasVindas
+    class TelaBoasVindas  
     {
-    
+                
         /// <summary>
         /// Carrega um texto .txt na tela 
         /// </summary>
         public void TelaApresentacao()
         {
+            Console.BackgroundColor = ConsoleColor.Black;
+            Console.ForegroundColor = ConsoleColor.DarkBlue;
             string path = Directory.GetCurrentDirectory();
 
             string arquivo = Path.Combine(path + @"\Txt_Tela", "TELA_INICIAL.txt");
@@ -41,8 +43,7 @@ namespace Old_West_Bank.UI
             {
                 Console.WriteLine(" O arquivo inicial não foi localizado !");
             }
-
-            Console.ReadKey();
+      
 
         }
 
