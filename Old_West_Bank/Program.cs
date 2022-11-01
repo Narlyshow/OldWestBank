@@ -94,14 +94,13 @@ namespace Old_West_Bank
             else if (opLogin == "2")
             {
                 //TODO: chamar/criar metodo da tela de cadastro de usuario
-                Console.WriteLine(telaCadastro.ApresentacaoOpcoesCadastro()); 
-
+                Console.WriteLine(telaCadastro.ApresentacaoOpcoesCadastro());
+                
             }
             else
             {
                 sair.Exit();
             }
-
 
 
         }

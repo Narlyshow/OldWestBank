@@ -1,13 +1,15 @@
-﻿using System;
+﻿using Old_West_Bank.BackEnd.Entities;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Text;
+using System.Threading;
 
 namespace Old_West_Bank.UI
 {
-    class TelaBoasVindas  
+    class TelaBoasVindas
     {
-                
+
         /// <summary>
         /// Carrega um texto .txt na tela 
         /// </summary>
@@ -43,10 +45,8 @@ namespace Old_West_Bank.UI
             {
                 Console.WriteLine(" O arquivo inicial não foi localizado !");
             }
-      
 
-        }
+            }
 
-        
     }
 }
