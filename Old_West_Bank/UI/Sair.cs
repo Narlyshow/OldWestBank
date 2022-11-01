@@ -10,7 +10,6 @@ namespace Old_West_Bank.UI
 
         public void Exit()
         {
-            Console.Clear();
             Console.BackgroundColor = ConsoleColor.Black;
             Console.ForegroundColor = ConsoleColor.White;
             string op = "Encerrando";

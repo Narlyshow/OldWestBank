@@ -9,14 +9,17 @@ namespace Old_West_Bank.BackEnd.Entities
 
         public int opcao { get; set; }
 
+
+        public ValidadorOpcoes()
+        {
+        }
+
         public ValidadorOpcoes(int opcao)
         {
             this.opcao = opcao;
         }
 
-        public ValidadorOpcoes()
-        {
-        }
+
 
         public bool ValidarOpcao(string opLogin)
         {
