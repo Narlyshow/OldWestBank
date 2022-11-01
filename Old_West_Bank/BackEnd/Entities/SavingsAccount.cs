@@ -42,8 +42,9 @@ namespace Old_West_Bank.BackEnd.Entities
 
         public override string ToString()
         {
+            Console.WriteLine();
             StringBuilder sb = new StringBuilder();
-            sb.AppendLine("Nome Completo: " + HolderName + "\nCPF: " + Cpf + "\nEmail: " + Email + "\nData de Nascimento: " + BirthDate);
+            sb.AppendLine("Nome Completo: " + HolderName + "\nCPF: " + Cpf + "\nEmail: " + Email + "\nData de Nascimento: " + BirthDate.ToString("dd/MM/yyyy") + "\nData de Criação da Conta: " + AccountDate);
 
             return sb.ToString();
         }

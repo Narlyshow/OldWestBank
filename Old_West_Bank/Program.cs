@@ -1,4 +1,5 @@
 ﻿using Old_West_Bank.BackEnd.Entities;
+using Old_West_Bank.EntradaDeDados;
 using Old_West_Bank.UI;
 using System;
 using System.IO;
@@ -17,7 +18,8 @@ namespace Old_West_Bank
 
             Console.Title = "Old West BANK";
             TelaBoasVindas telaInicial = new TelaBoasVindas();
-            TelaCadastro telaCadastro = new TelaCadastro();
+            TelaCadastro telaCadastroInicial = new TelaCadastro();
+            InteracaoCadastro telaCadastroInt = new InteracaoCadastro();
 
             telaInicial.TelaApresentacao();
 
@@ -98,7 +100,7 @@ namespace Old_West_Bank
                 else if (opLogin == "2")
                 {
                     //TODO: chamar/criar metodo da tela de cadastro de usuario
-                    Console.WriteLine(telaCadastro.ApresentacaoOpcoesCadastro());
+                    Console.WriteLine(telaCadastroInicial.ApresentacaoOpcoesCadastro());
                     break;
                 }
                 else
@@ -111,16 +113,16 @@ namespace Old_West_Bank
             opCadastro = Console.ReadLine();
             if (opCadastro == "1")
             {
-                Console.WriteLine();
+                Console.WriteLine(telaCadastroInt.TelaCadastroPoupanca());
             }
             else if (opCadastro == "2")
             {
-                //TODO: chamar/criar metodo para criar conta empresarial
+                Console.WriteLine(telaCadastroInt.TelaCadastroEmpresarial());
 
             }
             else if (opCadastro == "3")
             {
-                //TODO: chamar/criar metodo para criar conta corrente
+                Console.WriteLine(telaCadastroInt.TelaCadastroCorrente());
             }
             else if (opCadastro == "0")
             {

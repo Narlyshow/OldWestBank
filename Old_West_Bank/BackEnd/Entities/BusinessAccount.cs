@@ -1,7 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Text;
-
+using System.Globalization;
 namespace Old_West_Bank.BackEnd.Entities
 {
     class BusinessAccount : Account
@@ -45,6 +44,33 @@ namespace Old_West_Bank.BackEnd.Entities
         public void UpdateBalance()
         {
             //TODO: Mostrar o Saldo Existente na conta para o usuário.
+        }
+
+
+        public override string ToString()
+        {
+            Console.WriteLine();
+            StringBuilder sb = new StringBuilder();
+            sb.AppendLine("Nome Completo: " 
+                + HolderName 
+                + "\nCPF: " 
+                + Cpf
+                + "\nNome Da Empresa: " 
+                + CompanyName
+                + "\nCNPJ: " 
+                + Cnpj 
+                +  "\nEmail: " 
+                + Email 
+                + "\nLimite de Empréstimo: "
+                + LoanLimit.ToString("F2", CultureInfo.InvariantCulture)
+                + "\nQuantidade de Empréstimos Possíveis: "
+                + QuantityLoan
+                + "\nData de Nascimento: " 
+                + BirthDate.ToString("dd/MM/yyyy") 
+                + "\nData de Criação da Conta: " 
+                + AccountDate);
+
+            return sb.ToString();
         }
     }
 }
