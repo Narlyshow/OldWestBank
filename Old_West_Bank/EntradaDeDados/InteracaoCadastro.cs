@@ -1,4 +1,5 @@
 ﻿using Old_West_Bank.BackEnd.Entities;
+using Old_West_Bank.UI;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -42,8 +43,8 @@ namespace Old_West_Bank.EntradaDeDados
             ContaPoupanca = new SavingsAccount(email, cpf, name, birthDate, accountDate, interestRate);
 
             return ContaPoupanca;
-        }
 
+        }
 
         public BusinessAccount TelaCadastroEmpresarial()
         {
@@ -124,5 +125,8 @@ namespace Old_West_Bank.EntradaDeDados
 
             
         }
+
     }
+
+
 }

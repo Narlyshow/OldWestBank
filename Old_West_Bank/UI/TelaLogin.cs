@@ -1,12 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading;
 
 namespace Old_West_Bank.UI
 {
     class TelaLogin
     {
-    
+
         public string ApresentacaoOpcoesLogin()
         {
             Console.BackgroundColor = ConsoleColor.Black;
@@ -21,5 +22,24 @@ namespace Old_West_Bank.UI
 
             return sb.ToString();
         }
+
+/*        public string ChamandoMenuOpcoes()
+        {
+            Console.WriteLine();
+            Console.Write("Aguarde para ser redirecionado para tela de login!");
+            Thread.Sleep(1000);
+            Console.Write("!");
+            Thread.Sleep(1000);
+            Console.Write("!");
+            Thread.Sleep(1000);
+            Console.Write("!");
+            Thread.Sleep(1000);
+            Console.Write("!");
+            Thread.Sleep(1000);
+            Console.Clear();
+
+ 
+            return ApresentacaoOpcoesLogin();
+        }*/
     }
 }

@@ -114,15 +114,19 @@ namespace Old_West_Bank
             if (opCadastro == "1")
             {
                 Console.WriteLine(telaCadastroInt.TelaCadastroPoupanca());
+                //Console.WriteLine(tl.ChamandoMenuOpcoes());
+
             }
             else if (opCadastro == "2")
             {
                 Console.WriteLine(telaCadastroInt.TelaCadastroEmpresarial());
+                //Console.WriteLine(tl.ChamandoMenuOpcoes());
 
             }
             else if (opCadastro == "3")
             {
                 Console.WriteLine(telaCadastroInt.TelaCadastroCorrente());
+                //Console.WriteLine(tl.ChamandoMenuOpcoes()); 
             }
             else if (opCadastro == "0")
             {
