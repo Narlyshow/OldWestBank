@@ -39,5 +39,13 @@ namespace Old_West_Bank.BackEnd.Entities
         {
             //TODO: Criar Lógica de Rendimento para conta render x % em determinado tempo --> ??(segundo / minuto / hora / dia)??
         }
+
+        public override string ToString()
+        {
+            StringBuilder sb = new StringBuilder();
+            sb.AppendLine("Nome Completo: " + HolderName + "\nCPF: " + Cpf + "\nEmail: " + Email + "\nData de Nascimento: " + BirthDate);
+
+            return sb.ToString();
+        }
     }
 }

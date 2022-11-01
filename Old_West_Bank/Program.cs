@@ -64,6 +64,7 @@ namespace Old_West_Bank
             }
 
             string opLogin = String.Empty;
+            string opCadastro = String.Empty;
 
             do
             {
@@ -87,21 +88,44 @@ namespace Old_West_Bank
             } while (true);
 
 
-            if (opLogin == "1")
+            while (true)
             {
-                //TODO: chamar/criar metodo da tela de opções do usuario que já é cadastrado 
+                if (opLogin == "1")
+                {
+                    //TODO: chamar/criar metodo da tela de opções do usuario que já é cadastrado 
+                    break;
+                }
+                else if (opLogin == "2")
+                {
+                    //TODO: chamar/criar metodo da tela de cadastro de usuario
+                    Console.WriteLine(telaCadastro.ApresentacaoOpcoesCadastro());
+                    break;
+                }
+                else
+                {
+                    sair.Exit();
+                    break;
+                }
             }
-            else if (opLogin == "2")
+
+            opCadastro = Console.ReadLine();
+            if (opCadastro == "1")
             {
-                //TODO: chamar/criar metodo da tela de cadastro de usuario
-                Console.WriteLine(telaCadastro.ApresentacaoOpcoesCadastro());
-                
+                Console.WriteLine();
             }
-            else
+            else if (opCadastro == "2")
+            {
+                //TODO: chamar/criar metodo para criar conta empresarial
+
+            }
+            else if (opCadastro == "3")
+            {
+                //TODO: chamar/criar metodo para criar conta corrente
+            }
+            else if (opCadastro == "0")
             {
                 sair.Exit();
             }
-
 
         }
     }

@@ -24,34 +24,5 @@ namespace Old_West_Bank.UI
             return sb.ToString();
         }
 
-        public string TelaCadastroPoupanca() {
-            StringBuilder sb = new StringBuilder();
-            SavingsAccount contaPoupanca;
-
-            //string email, string cpf, string holderName, DateTime birthDate, DateTime accountDate, double interestRate
-            sb.AppendLine("* Bem vindo ao Cadastro da sua Conta Poupança! *");
-            sb.AppendLine("Digite seu: ");
-
-            sb.Append("CPF: ");
-            string cpf = Console.ReadLine();
-            sb.Append("Email: ");
-            string email = Console.ReadLine();
-            sb.Append("Nome Completo: ");
-            string nome = Console.ReadLine();
-            sb.Append("Data de Nascimento: ");
-            DateTime dataNascimento = DateTime.Parse(Console.ReadLine());
-            DateTime dataDaConta = DateTime.Now;
-            double interestRate = 20.00;
-
-            sb.AppendLine("Sua conta foi criada com sucesso! Você vai ser redirecionado para tela de login.");
-            contaPoupanca = new SavingsAccount(email, cpf, nome, dataNascimento, dataDaConta, interestRate);
-            
-            return sb.ToString();
-            
-        }
-
-        public void TelaCadastroEmpresarial() { }
-
-        public void TelaCadastroCorrente() { }
     }
 }
